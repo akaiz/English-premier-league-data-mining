@@ -1,0 +1,86 @@
+---
+title: "premierLeague"
+author: "Kolawole Gabriel"
+date: "5 May 2016"
+output: html_document
+---
+
+
+
+## Current Season
+
+```{r se2015_2016}
+library()
+se20152016  <- read.csv("~/Documents/Materials/2nd Semester Year1/2. Data Mining/project/dataset/2015-2016.csv")
+se20142015  <- read.csv("~/Documents/Materials/2nd Semester Year1/2. Data Mining/project/dataset/2014-2015.csv")
+se20142015['bookings_y'] <- se20142015$HY + se20142015$AY 
+se20142015['bookings_r'] <- se20142015$HR + se20142015$AR 
+
+```
+
+## Referees
+
+```{r pressure, echo=FALSE}
+library(plotly)
+refMatchFreq16 <- as.data.frame(ftable(se20152016$Referee)) 
+refMatchFreq15 <- as.data.frame(ftable(se20142015$Referee)) 
+p1 <- plot_ly(
+  x = refMatchFreq15$Var1,
+  y = refMatchFreq15$Freq,
+  name = "2015-2016 Season officiation Stat",
+  type = "bar"
+)
+p2 <- plot_ly(
+  x = refMatchFreq16$Var1,
+  y = refMatchFreq16$Freq,
+  name = "2014-2015 Season officiation Stat",
+  type = "bar"
+)
+
+displayRefMatchBar <- function(obj){
+    p <- layout(obj,              
+      xaxis = list(           
+          title = "Referee",  
+          showgrid = T        
+      ),
+      yaxis = list(           
+          title = "Number of Matches"   
+      )
+  )
+    return(p);
+}
+
+displayRefMatchBar(p1)
+displayRefMatchBar(p2)
+```
+
+## 2014-2014 Season Officiating Stat
+```{r statA}
+displayRefMatchBar(p2)
+```
+
+## 2015-2016 Season Officiating Stat
+```{r statA}
+displayRefMatchBar(p1)
+```
+
+Next we are going to analyze the how players are booked in various matches during the two seasons, first let us figure out the match where most booking was done:
+
+```{r matchbookings}
+
+```
+
+## Team Winning Stat 2015/2016
+```{r fulltimescore}
+plotPie <- function(data,season){
+  ds <- as.data.frame(table(data$FTR))
+  return(
+          plot_ly(ds, labels = Var1, values = Freq, type = "pie") %>%
+          layout(title = paste("Fulltime Result distribution",season,"season",sep=" "))
+  )
+}
+plotPie(se20152016,"2015/2016")
+plotPie(se20142015,"2014/2015")
+```
+
+From this is evident that the home team wins most matches. With a slight difference in the 2015/2016 season where the competition was evidently tough, where a non top 4 team (e.g Leceiter) is coming from below to dominate the league and several other teams like this.
