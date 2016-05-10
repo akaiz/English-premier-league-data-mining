@@ -1,0 +1,112 @@
+---
+title: "premier_league_2"
+author: "Agaba isaac"
+date: "May 9, 2016"
+output: html_document
+---
+
+## Current Season
+
+```{r se2015_2016}
+library(dplyr)
+library(plyr)
+setwd("C:/Users/akaiz/Documents/data mining/data")
+se20132014  <- read.csv("dataset/2013-2014.csv")
+se20142015  <- read.csv("dataset/2014-2015.csv")
+
+
+
+
+```
+
+## Referees
+
+```{r pressure, echo=FALSE}
+
+length(unique(se20132014$HomeTeam))
+nrow(se20142015)
+se20142015
+
+priemier_table_file
+
+premiertable<-data.frame(team=character(0),points=numeric(0),GD=numeric(0))
+  # factor errors
+  premiertable$team = as.character(premiertable$team)
+  premiertable$points = as.numeric(premiertable$points)
+  premiertable$GD = as.numeric(premiertable$GD)
+looper=function(team,table){
+   point = 0
+   galldif=0
+  for (i in 1:nrow(table)) {
+   
+    if(table[i,]$HomeTeam==team |table[i,]$AwayTeam==team){
+         # print(paste0(table[i,]$HomeTeam,"=======",table[i,]$AwayTeam,">",table[i,]$FTR))
+      
+        if(table[i,]$HomeTeam==team & table[i,]$FTR=="H" )
+        {
+          point=point+3
+          galldif=galldif+(table[i,]$FTHG-table[i,]$FTAG)
+              print(paste0(i,"--",3,"--",table[i,]$HomeTeam))
+          
+        }
+        else  if(table[i,]$HomeTeam!=team & table[i,]$FTR=="H" ){
+           galldif=galldif-(table[i,]$FTHG-table[i,]$FTAG)
+        }
+      
+      
+      
+      if(table[i,]$AwayTeam==team & table[i,]$FTR=="A" )
+        {
+          point=point+3
+             print(paste0(i,"--",3,"--",table[i,]$AwayTeam))
+              galldif=galldif+(table[i,]$FTAG-table[i,]$FTHG)
+          
+      }
+      else  if(table[i,]$AwayTeam!=team & table[i,]$FTR=="A" ){
+           galldif=galldif-(table[i,]$FTAG-table[i,]$FTHG)
+        }
+      
+      if(table[i,]$FTR=="D")
+        {
+          point=point+1
+            
+      }
+       
+      
+      
+      
+    }
+
+  }
+   
+
+      index =nrow(premiertable)+1
+      #premiertable[index,]=c(index,point,galldif)
+      write(c(team,point,galldif), file = "ranking.csv", 3, append = TRUE, sep = ",")
+  
+}
+
+
+
+teams = unique(se20132014$HomeTeam)
+teams[1]
+
+for(t in teams)
+{
+ 
+  looper(t,se20132014)
+}
+
+
+
+
+
+d<-data.frame(team="arsenal",points=18,GD=1)
+  premiertable<- bind_rows(premiertable,d)
+ 
+  premiertable[1,] = c("arsenal",18,1)
+ 
+  
+   print( premiertable[2,] = c("liverpool",19,1))
+  
+  d[i,] = c()

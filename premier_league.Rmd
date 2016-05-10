@@ -1,6 +1,6 @@
 ---
 title: "premierLeague"
-author: "Kolawole Gabriel"
+author: "Kolawole Gabriel,Agaba Isaac"
 date: "5 May 2016"
 output: html_document
 ---
@@ -11,8 +11,12 @@ output: html_document
 
 ```{r se2015_2016}
 library()
-se20152016  <- read.csv("~/Documents/Materials/2nd Semester Year1/2. Data Mining/project/dataset/2015-2016.csv")
-se20142015  <- read.csv("~/Documents/Materials/2nd Semester Year1/2. Data Mining/project/dataset/2014-2015.csv")
+# se20152016  <- read.csv("~/Documents/Materials/2nd Semester Year1/2. Data Mining/project/dataset/2015-2016.csv")
+# se20142015  <- read.csv("~/Documents/Materials/2nd Semester Year1/2. Data Mining/project/dataset/2014-2015.csv")
+setwd("C:/Users/akaiz/Documents/data mining/data")
+se20152016  <- read.csv("dataset/2015-2016.csv")
+se20142015  <- read.csv("dataset/2014-2015.csv")
+
 se20142015['bookings_y'] <- se20142015$HY + se20142015$AY 
 se20142015['bookings_r'] <- se20142015$HR + se20142015$AR 
 
@@ -49,9 +53,9 @@ displayRefMatchBar <- function(obj){
   )
     return(p);
 }
-
-displayRefMatchBar(p1)
-displayRefMatchBar(p2)
+# 
+# displayRefMatchBar(p1)
+# displayRefMatchBar(p2)
 ```
 
 ## 2014-2014 Season Officiating Stat
@@ -60,7 +64,7 @@ displayRefMatchBar(p2)
 ```
 
 ## 2015-2016 Season Officiating Stat
-```{r statA}
+```{r statB}
 displayRefMatchBar(p1)
 ```
 
