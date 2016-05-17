@@ -100,6 +100,12 @@ doesFactorMatter <- function (dataset,factor){
   }
   return(paste("The avarage shot at the goal when the", factor, "wins", shots, sep= " "))
 }
+doesFactorMatter(se20152016,'H')
+doesFactorMatter(se20152016,'A')
+doesFactorMatter(se20142015,'H')
+doesFactorMatter(se20142015,'A')
+
 ```
 
-Looking the mean of the goals on target we can see that the home team has more goals on target, this can be due to the intimadating presence of the fans of the home team which is a usual culture in the english football league.
+Looking the mean of the goals on target we can see that the home team has more goals on target, this can be due to the intimadating presence of the fans of the home team which is a usual culture in the english football.
+
