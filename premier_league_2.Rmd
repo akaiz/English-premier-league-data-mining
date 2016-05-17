@@ -8,6 +8,9 @@ output: html_document
 ## Current Season
 
 ```{r se2015_2016}
+  library(dplyr)
+    library(tidyr)
+
 setwd("C:/Users/akaiz/Documents/data mining/data")
 
 
@@ -20,8 +23,14 @@ se20112012  <- read.csv("dataset/2011-2012.csv")
 se20132014  <- read.csv("dataset/2013-2014.csv")
 se20142015  <- read.csv("dataset/2014-2015.csv")
 
-
-
+  year1<-se20062007
+  year2<-se20072008
+  year3<-se20082009
+  year4<-se20092010
+  year5<-se20102011
+  year6<-se20112012
+  year7<-se20132014
+  year8<-se20142015
 
 
 ```
@@ -54,7 +63,7 @@ looper=function(team,table,title){
       if(table[i,]$AwayTeam==team & table[i,]$FTR=="A" )
         {
           point=point+3
-             print(paste0(i,"--",3,"--",table[i,]$AwayTeam))
+            
               galldif=galldif+(table[i,]$FTAG-table[i,]$FTHG)
           
       }
@@ -78,6 +87,7 @@ looper=function(team,table,title){
 
       
         t=paste("rankings/ranking_",title,".csv")
+        
       
       write(c(team,point,galldif), file = t, 3, append = TRUE, sep = ",")
   
@@ -87,7 +97,9 @@ looper=function(team,table,title){
 table_generator = function(team,title)
 {
   teams = unique(team$HomeTeam)
-
+  
+  t=paste("rankings/ranking_",title,".csv")
+  write(c("team","points","GDF"), file = t, 3, append = TRUE, sep = ",")
 for(t in teams)
 {
  
@@ -97,9 +109,94 @@ for(t in teams)
   
 }
 
+
+
+```
+
+#Generating table from the table generator
+
+
+```{r}
 table_generator(se20062007,"se20062007")
 table_generator(se20072008,"se20072008")
 table_generator(se20082009,"se20082009")
 table_generator(se20092010,"se20092010")
+
+```
+# Acess to the generated results sata
+```{r}
+se20062007_result   <- read.csv("rankings/ranking_ se20062007 .csv",header = TRUE)
+se20062007_result<-arrange(se20062007_result,desc(points))
+
+se20072008_result   <- read.csv("rankings/ranking_ se20072008 .csv",header = TRUE)
+se20072008_result<-arrange(se20072008_result,desc(points))
+
+
+
+```
+
+
+## PREDICTOR GENERATOR
+
+## PARAMETERS
+1. Extract out the number of matches played by the teams in the past years and the result of the game   
+
+2. use various table attributes to train our  database
+
+3. Get the current position of both teams in the last year
+4. Get the current position of both the teams in the current year before they meet 
+
+   1. This will base on whether they are meeting in the first round or not
+   
+   
+   
+```{r}
+team_overalldata_in_past_year<-function(team,year){
+  
+  param=c("HomeTeam","AwayTeam","FTHG","FTAG","FTR","Referee","HS","AS","HST","AST","HC","AC","HF","AF","HY","AY","HR","AR")
+  data<-subset(year,HomeTeam==team|AwayTeam==team)[,param]
+  return(data)
+}
+                              
+
+
+
+twoteams_matches_in_ayear<-function(team1,team2,year){
+  fn<-"twoteams.csv"
+
+ if (file.exists(fn)) file.remove(fn)
+# write(c("HomeTeam","AwayTeam","FTHG","FTAG","FTR","Referee","HS","AS","HST","AST","HC","AC","HF","AF","HY","AY","HR","AR"), file = fn, 18, append = TRUE, sep = ",")
+
+   teamresults<-team_overalldata_in_past_year(team1,year)
+   rownames(teamresults) <- NULL
+   #write(teamresults,file = fn, 18, append = TRUE, sep = ",")
+   write.table(teamresults,fn,sep = ",")
+   
+# for(i in 1:nrow(teamresults)){
+#  
+#    team<-teamresults[i,]
+#    x<-team$HomeTeam
+#  write(c(x,team$AwayTeam,team$FTHG,team$FTAG,team$FTR,team$Referee,team$HS,team$AS,team$HST,team$AST,team$HC,team$AC,team$HF,team$AF,team$HY,team$AY,team$HR,team$AR), file = fn, 18, append = TRUE, sep = ",") 
+#    print(paste(x,team$AwayTeam))
+#  }
+  
+  
+}
+
+twoteams_matches_in_ayear("Arsenal","c",year1)
+team_overalldata_in_past_year("Arsenal",year1)
+                                                  
+
+
+
+
+```
+
+
+
+
+
+
+
 
 
