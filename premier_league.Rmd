@@ -88,3 +88,18 @@ plotPie(se20142015,"2014/2015")
 ```
 
 From this is evident that the home team wins most matches. With a slight difference in the 2015/2016 season where the competition was evidently tough, where a non top 4 team (e.g Leceiter) is coming from below to dominate the league and several other teams like this.
+
+We can further query this, is winning a match a function of being the home team in a match
+```{r doesHomeMatters}
+doesFactorMatter <- function (dataset,factor){
+  factorSubset = subset(dataset, FTR==factor)
+  if(factor == 'H'){
+    shots <- mean(factorSubset$HST)
+  }else{
+    shots <- mean(factorSubset$AST)
+  }
+  return(paste("The avarage shot at the goal when the", factor, "wins", shots, sep= " "))
+}
+```
+
+Looking the mean of the goals on target we can see that the home team has more goals on target, this can be due to the intimadating presence of the fans of the home team which is a usual culture in the english football league.
