@@ -1,0 +1,267 @@
+HomeTeam,AwayTeam,FTHG,FTAG,FTR,Referee,HS,AS,HST,AST,HC,AC,HF,AF,HY,AY,HR,AR
+"Arsenal","Aston Villa",1,1,"D","G Poll",19,5,11,3,18,1,10,19,1,2,0,0
+"Man City","Arsenal",1,0,"H","U Rennie",10,17,3,6,2,8,16,8,1,1,0,0
+"Arsenal","Middlesbrough",1,1,"D","R Styles",20,1,12,1,15,0,5,17,1,6,0,1
+"Man United","Arsenal",0,1,"A","G Poll",17,14,9,7,10,5,11,11,2,2,0,0
+"Arsenal","Sheffield United",3,0,"H","A Wiley",14,5,11,4,7,2,11,8,2,1,0,0
+"Charlton","Arsenal",1,2,"A","M Clattenburg",10,21,6,12,4,7,19,8,4,4,0,0
+"Arsenal","Watford",3,0,"H","H Webb",15,9,7,3,8,4,6,14,0,1,0,0
+"Reading","Arsenal",0,4,"A","A Wiley",3,16,1,9,10,2,6,6,0,0,0,0
+"Arsenal","Everton",1,1,"D","M Riley",26,2,12,2,16,3,6,21,2,3,0,0
+"West Ham","Arsenal",1,0,"H","R Styles",11,11,5,5,8,3,11,8,3,2,0,0
+"Arsenal","Liverpool",3,0,"H","M Clattenburg",7,10,7,4,2,6,7,12,2,3,0,0
+"Arsenal","Newcastle",1,1,"D","M Atkinson",23,2,10,1,11,1,10,9,2,5,0,0
+"Bolton","Arsenal",3,1,"H","M Dean",10,14,8,7,7,11,11,8,3,4,0,0
+"Fulham","Arsenal",2,1,"H","H Webb",13,7,7,2,6,6,17,15,4,5,0,1
+"Arsenal","Tottenham",3,0,"H","G Poll",6,7,5,4,3,2,15,15,1,2,0,0
+"Chelsea","Arsenal",1,1,"D","A Wiley",20,11,7,4,4,5,16,16,2,2,0,0
+"Wigan","Arsenal",0,1,"A","R Styles",15,9,7,3,4,7,10,7,1,0,0,0
+"Arsenal","Portsmouth",2,2,"D","S Bennett",14,7,8,5,7,4,13,13,0,2,0,0
+"Arsenal","Blackburn",6,2,"H","H Webb",18,11,12,7,7,6,14,14,3,3,0,0
+"Watford","Arsenal",1,2,"A","M Dean",6,16,3,8,7,5,11,6,2,0,0,0
+"Sheffield United","Arsenal",1,0,"H","L Mason",11,9,5,4,5,9,11,5,2,3,0,0
+"Arsenal","Charlton",4,0,"H","M Riley",16,4,10,2,8,2,13,9,0,1,0,1
+"Blackburn","Arsenal",0,2,"A","C Foy",13,6,7,4,8,2,15,5,4,0,0,1
+"Arsenal","Man United",2,1,"H","S Bennett",18,10,11,6,8,6,13,11,1,3,0,0
+"Middlesbrough","Arsenal",1,1,"D","M Riley",3,11,1,4,3,6,14,5,2,1,0,1
+"Arsenal","Wigan",2,1,"H","P Dowd",10,8,3,2,10,1,9,15,6,3,0,0
+"Arsenal","Reading",2,1,"H","C Foy",16,7,9,4,16,7,8,14,1,1,0,0
+"Aston Villa","Arsenal",0,1,"A","M Atkinson",11,10,6,5,6,4,12,14,1,1,0,0
+"Everton","Arsenal",1,0,"H","M Clattenburg",11,18,4,9,5,4,17,13,6,0,0,0
+"Liverpool","Arsenal",4,1,"H","S Bennett",12,11,7,3,2,7,17,8,1,3,0,0
+"Arsenal","West Ham",0,1,"A","G Poll",29,6,15,5,14,1,10,15,0,1,0,0
+"Newcastle","Arsenal",0,0,"D","H Webb",8,6,4,2,3,6,13,14,1,2,0,0
+"Arsenal","Bolton",2,1,"H","R Styles",19,6,9,2,2,5,7,18,2,3,0,1
+"Arsenal","Man City",3,1,"H","M Halsey",12,9,10,6,7,3,8,8,0,0,0,0
+"Tottenham","Arsenal",2,2,"D","M Dean",7,17,3,5,4,6,10,6,2,2,0,0
+"Arsenal","Fulham",3,1,"H","M Clattenburg",10,7,5,1,7,6,6,10,2,4,0,0
+"Arsenal","Chelsea",1,1,"D","A Wiley",7,9,4,4,3,7,19,13,1,2,0,1
+"Portsmouth","Arsenal",0,0,"D","G Poll",9,14,4,6,2,6,18,15,0,0,0,0
+"Arsenal","Fulham",2,1,"H","P Dowd",19,12,13,9,14,4,6,19,1,5,0,0
+"Blackburn","Arsenal",1,1,"D","A Wiley",9,10,4,3,5,4,19,15,4,4,1,0
+"Arsenal","Man City",1,0,"H","C Foy",16,8,10,4,8,2,8,9,0,1,0,0
+"Arsenal","Portsmouth",3,1,"H","M Halsey",10,15,8,10,8,5,6,12,1,2,1,0
+"Tottenham","Arsenal",1,3,"A","M Clattenburg",14,16,5,10,8,4,28,22,2,2,0,0
+"Arsenal","Derby",5,0,"H","M Atkinson",15,4,9,3,5,4,9,12,1,1,0,0
+"West Ham","Arsenal",0,1,"A","A Wiley",9,16,4,12,3,14,15,14,2,2,0,0
+"Arsenal","Sunderland",3,2,"H","R Styles",18,11,8,7,8,2,10,9,0,2,0,1
+"Arsenal","Bolton",2,0,"H","M Riley",19,1,9,0,5,3,14,20,1,5,0,0
+"Liverpool","Arsenal",1,1,"D","H Webb",11,11,8,4,4,1,16,10,3,3,0,0
+"Arsenal","Man United",2,2,"D","H Webb",16,10,6,4,3,4,15,15,1,2,0,0
+"Reading","Arsenal",1,3,"A","R Styles",8,16,5,7,5,1,9,5,1,1,0,0
+"Arsenal","Wigan",2,0,"H","P Walton",13,7,6,2,7,3,9,17,1,4,0,0
+"Aston Villa","Arsenal",1,2,"A","C Foy",11,14,5,9,4,7,16,10,3,2,0,0
+"Newcastle","Arsenal",1,1,"D","M Dean",12,6,8,2,6,6,9,10,3,2,0,0
+"Middlesbrough","Arsenal",2,1,"H","H Webb",13,7,7,4,5,4,15,13,2,2,0,0
+"Arsenal","Chelsea",1,0,"H","A Wiley",11,10,5,7,3,5,19,12,5,5,0,0
+"Arsenal","Tottenham",2,1,"H","R Styles",9,10,5,5,5,1,10,10,1,3,0,0
+"Portsmouth","Arsenal",0,0,"D","S Bennett",9,12,6,6,4,7,15,9,2,1,0,0
+"Everton","Arsenal",1,4,"A","M Atkinson",10,10,3,7,10,2,14,13,0,5,1,1
+"Arsenal","West Ham",2,0,"H","C Foy",21,15,13,7,5,7,5,7,0,3,0,0
+"Arsenal","Birmingham",1,1,"D","P Dowd",16,2,9,2,14,3,8,10,1,2,0,0
+"Fulham","Arsenal",0,3,"A","P Walton",5,11,0,4,4,3,13,10,0,1,0,0
+"Arsenal","Newcastle",3,0,"H","M Riley",10,7,4,3,4,2,11,15,1,3,0,0
+"Man City","Arsenal",1,3,"A","A Marriner",5,14,2,9,1,9,7,7,2,0,0,0
+"Arsenal","Blackburn",2,0,"H","S Bennett",13,6,9,2,7,5,12,6,1,0,0,0
+"Birmingham","Arsenal",2,2,"D","M Dean",2,26,1,13,1,7,9,13,0,2,1,0
+"Arsenal","Aston Villa",1,1,"D","M Clattenburg",16,5,7,4,8,7,8,13,1,2,0,0
+"Wigan","Arsenal",0,0,"D","R Styles",6,10,3,6,8,5,10,8,2,2,0,0
+"Arsenal","Middlesbrough",1,1,"D","M Halsey",17,4,9,1,11,1,7,10,0,2,0,1
+"Chelsea","Arsenal",2,1,"H","M Clattenburg",11,7,8,5,4,2,10,13,3,1,0,0
+"Bolton","Arsenal",2,3,"A","C Foy",13,17,9,8,8,6,12,10,2,2,0,1
+"Arsenal","Liverpool",1,1,"D","P Dowd",8,11,6,4,5,3,10,10,1,2,0,0
+"Man United","Arsenal",2,1,"H","H Webb",13,18,7,11,6,5,12,7,2,6,0,0
+"Arsenal","Reading",2,0,"H","P Walton",19,4,12,2,12,4,7,15,0,3,0,0
+"Derby","Arsenal",2,6,"A","A Marriner",12,20,10,11,5,6,6,7,0,0,0,0
+"Arsenal","Everton",1,0,"H","A Wiley",11,8,2,4,8,3,10,4,0,1,0,0
+"Sunderland","Arsenal",0,1,"A","K Stroud",13,12,5,8,3,4,14,12,1,1,0,0
+"Arsenal","West Brom",1,0,"H","H Webb",24,5,14,4,7,5,11,8,0,0,0,0
+"Fulham","Arsenal",1,0,"H","M Atkinson",5,15,2,6,1,5,14,6,2,0,0,0
+"Arsenal","Newcastle",3,0,"H","R Styles",20,4,14,2,12,1,12,11,2,2,0,0
+"Blackburn","Arsenal",0,4,"A","M Dean",10,17,3,10,5,5,8,8,1,1,0,0
+"Bolton","Arsenal",1,3,"A","S Bennett",12,20,8,9,7,17,12,10,2,2,0,0
+"Arsenal","Hull",1,2,"A","A Wiley",18,7,9,5,15,4,8,7,2,1,0,0
+"Sunderland","Arsenal",1,1,"D","L Mason",8,13,5,7,1,7,10,11,3,5,0,0
+"Arsenal","Everton",3,1,"H","P Walton",22,7,14,3,7,4,8,13,2,4,0,0
+"West Ham","Arsenal",0,2,"A","P Dowd",7,20,3,10,4,9,13,9,2,3,1,0
+"Arsenal","Tottenham",4,4,"D","M Atkinson",20,9,12,6,9,1,8,17,1,4,0,0
+"Stoke","Arsenal",2,1,"H","R Styles",7,13,5,6,3,5,11,7,4,2,0,1
+"Arsenal","Man United",2,1,"H","H Webb",11,17,7,9,5,6,16,7,3,2,0,0
+"Arsenal","Aston Villa",0,2,"A","M Riley",11,9,8,6,8,5,9,22,2,4,0,0
+"Man City","Arsenal",3,0,"H","A Wiley",12,11,8,5,3,3,16,9,0,1,0,0
+"Chelsea","Arsenal",1,2,"A","M Dean",12,9,5,6,3,2,18,16,2,0,0,0
+"Arsenal","Wigan",1,0,"H","S Bennett",11,10,4,4,8,3,13,13,1,2,0,0
+"Middlesbrough","Arsenal",1,1,"D","P Walton",8,17,3,11,5,10,8,11,0,1,0,0
+"Arsenal","Liverpool",1,1,"D","H Webb",6,10,3,6,2,1,14,17,3,3,1,0
+"Aston Villa","Arsenal",2,2,"D","L Mason",13,8,9,6,7,6,10,10,4,4,0,0
+"Arsenal","Portsmouth",1,0,"H","A Wiley",11,4,7,3,11,2,9,9,0,1,0,0
+"Arsenal","Bolton",1,0,"H","C Foy",14,2,9,2,5,0,13,16,2,2,0,0
+"Hull","Arsenal",1,3,"A","A Wiley",4,13,3,9,4,4,11,19,1,1,0,0
+"Everton","Arsenal",1,1,"D","A Marriner",7,7,3,4,7,6,9,11,2,2,0,0
+"Arsenal","West Ham",0,0,"D","S Bennett",15,2,8,2,13,3,12,12,2,2,0,0
+"Tottenham","Arsenal",0,0,"D","M Dean",16,4,6,1,6,4,14,14,1,2,0,1
+"Arsenal","Sunderland",0,0,"D","A Wiley",16,3,9,2,8,3,6,12,2,2,0,0
+"Arsenal","Fulham",0,0,"D","P Walton",16,12,8,3,11,6,6,14,0,0,0,0
+"West Brom","Arsenal",1,3,"A","S Tanner",8,16,4,8,3,4,19,14,4,0,0,0
+"Arsenal","Blackburn",4,0,"H","P Dowd",18,7,12,3,7,4,8,14,0,4,0,0
+"Newcastle","Arsenal",1,3,"A","M Halsey",11,15,8,10,8,4,12,12,0,1,0,0
+"Arsenal","Man City",2,0,"H","A Marriner",17,9,9,4,7,2,11,9,1,3,0,0
+"Wigan","Arsenal",1,4,"A","A Wiley",11,15,5,8,6,5,15,16,3,3,0,0
+"Liverpool","Arsenal",4,4,"D","H Webb",22,8,15,4,12,0,10,12,0,1,0,0
+"Arsenal","Middlesbrough",2,0,"H","C Foy",15,5,11,4,8,1,8,13,0,0,0,0
+"Portsmouth","Arsenal",0,3,"A","L Mason",12,15,4,9,5,11,9,10,3,1,1,0
+"Arsenal","Chelsea",1,4,"A","P Dowd",15,16,7,8,6,2,19,12,1,0,0,0
+"Man United","Arsenal",0,0,"D","M Dean",11,14,5,11,2,6,13,14,0,5,0,0
+"Arsenal","Stoke",4,1,"H","M Atkinson",24,3,11,1,6,0,9,11,1,0,0,0
+"Everton","Arsenal",1,6,"A","M Halsey",8,15,5,9,4,9,11,13,0,0,0,0
+"Arsenal","Portsmouth",4,1,"H","S Bennett",19,9,16,4,8,4,9,10,1,0,0,0
+"Man United","Arsenal",2,1,"H","M Dean",10,9,4,3,6,5,21,15,3,6,0,0
+"Man City","Arsenal",4,2,"H","M Clattenburg",10,19,6,9,3,12,13,12,3,2,0,0
+"Arsenal","Wigan",4,0,"H","M Jones",23,8,11,5,6,4,6,18,2,2,0,0
+"Fulham","Arsenal",0,1,"A","M Atkinson",18,14,12,4,4,6,14,11,4,0,0,0
+"Arsenal","Blackburn",6,2,"H","P Walton",24,7,18,7,8,1,9,10,1,1,0,0
+"Arsenal","Birmingham",3,1,"H","L Probert",20,3,12,2,7,3,8,16,1,2,0,0
+"West Ham","Arsenal",2,2,"D","C Foy",15,15,9,10,6,8,17,15,3,2,1,0
+"Arsenal","Tottenham",3,0,"H","M Clattenburg",18,7,12,5,6,2,10,10,1,1,0,0
+"Wolves","Arsenal",1,4,"A","St Bennett",8,11,6,6,4,4,9,15,2,3,0,0
+"Sunderland","Arsenal",1,0,"H","A Wiley",5,9,1,3,2,6,10,10,2,1,0,0
+"Arsenal","Chelsea",0,3,"A","A Marriner",5,7,3,5,4,3,17,12,2,2,0,0
+"Arsenal","Stoke",2,0,"H","M Clattenburg",12,5,8,4,10,2,3,7,0,0,0,0
+"Liverpool","Arsenal",1,2,"A","H Webb",6,7,3,5,3,4,19,16,3,3,0,0
+"Burnley","Arsenal",1,1,"D","M Dean",8,17,3,9,3,6,11,11,2,0,0,0
+"Arsenal","Hull",3,0,"H","S Bennett",18,6,9,2,8,0,9,14,1,5,0,0
+"Arsenal","Aston Villa",3,0,"H","P Dowd",19,7,12,3,10,4,14,18,1,3,0,0
+"Portsmouth","Arsenal",1,4,"A","A Wiley",10,14,6,10,2,10,14,3,2,0,0,0
+"Arsenal","Everton",2,2,"D","P Walton",6,9,5,5,6,8,10,11,1,1,0,0
+"Bolton","Arsenal",0,2,"A","P Dowd",12,14,6,9,2,4,13,5,1,2,0,0
+"Arsenal","Bolton",4,2,"H","A Wiley",20,7,14,4,9,3,16,17,1,2,0,0
+"Aston Villa","Arsenal",0,0,"D","L Probert",8,12,2,8,7,7,16,15,2,2,0,0
+"Arsenal","Man United",1,3,"A","C Foy",18,11,7,5,8,5,9,12,1,0,0,0
+"Chelsea","Arsenal",2,0,"H","M Dean",9,14,3,6,4,8,11,14,2,2,0,0
+"Arsenal","Liverpool",1,0,"H","H Webb",11,9,6,7,3,6,19,13,3,2,0,0
+"Arsenal","Sunderland",2,0,"H","S Bennett",16,6,10,4,7,1,8,10,1,5,0,0
+"Stoke","Arsenal",1,3,"A","P Walton",4,17,3,11,3,6,12,7,0,1,1,0
+"Arsenal","Burnley",3,1,"H","C Foy",20,8,11,5,8,2,5,12,0,4,0,0
+"Hull","Arsenal",1,2,"A","A Marriner",7,18,2,9,2,8,16,13,2,2,1,0
+"Arsenal","West Ham",2,0,"H","M Atkinson",9,8,5,4,4,2,7,24,1,4,1,0
+"Birmingham","Arsenal",1,1,"D","H Webb",7,13,3,8,3,6,13,13,3,2,0,0
+"Arsenal","Wolves",1,0,"H","A Marriner",23,3,13,2,10,4,10,13,0,2,0,1
+"Tottenham","Arsenal",2,1,"H","M Clattenburg",13,19,10,11,4,6,13,10,3,1,0,0
+"Wigan","Arsenal",3,2,"H","L Mason",16,11,11,8,8,3,15,13,2,1,0,0
+"Arsenal","Man City",0,0,"D","M Dean",9,3,4,2,5,1,13,14,4,2,0,0
+"Blackburn","Arsenal",2,1,"H","M Atkinson",11,6,7,4,5,8,19,15,2,2,0,0
+"Arsenal","Fulham",4,0,"H","M Jones",16,5,11,2,5,2,11,10,2,2,0,0
+"Liverpool","Arsenal",1,1,"D","M Atkinson",7,14,4,7,9,11,13,15,1,3,1,1
+"Arsenal","Blackpool",6,0,"H","M Jones",26,3,16,1,8,2,9,3,0,0,0,1
+"Blackburn","Arsenal",1,2,"A","C Foy",15,14,7,9,4,8,9,7,1,0,0,0
+"Arsenal","Bolton",4,1,"H","S Attwell",23,7,14,6,9,6,11,11,2,2,0,1
+"Sunderland","Arsenal",1,1,"D","P Dowd",16,16,5,7,11,3,11,13,2,2,0,1
+"Arsenal","West Brom",2,3,"A","M Oliver",24,7,12,5,16,4,15,14,4,3,0,0
+"Chelsea","Arsenal",2,0,"H","M Dean",11,13,6,5,10,10,7,12,1,1,0,0
+"Arsenal","Birmingham",2,1,"H","M Atkinson",18,6,13,4,7,3,16,9,2,2,1,0
+"Man City","Arsenal",0,3,"A","M Clattenburg",9,12,6,8,6,7,11,10,2,4,1,0
+"Arsenal","West Ham",1,0,"H","M Jones",20,6,13,3,7,4,14,18,2,2,0,0
+"Arsenal","Newcastle",0,1,"A","M Dean",11,7,8,2,12,2,16,12,3,1,1,0
+"Wolves","Arsenal",0,2,"A","M Halsey",14,12,7,8,5,2,7,14,1,2,0,0
+"Everton","Arsenal",1,2,"A","H Webb",14,13,7,8,9,2,15,14,2,2,0,0
+"Arsenal","Tottenham",2,3,"A","P Dowd",12,10,7,6,2,6,17,16,3,1,0,0
+"Aston Villa","Arsenal",2,4,"A","M Clattenburg",6,17,4,10,3,8,10,7,1,1,0,0
+"Arsenal","Fulham",2,1,"H","C Foy",15,11,9,7,3,7,7,5,0,0,0,0
+"Man United","Arsenal",1,0,"H","H Webb",14,11,10,6,5,4,7,16,0,4,0,0
+"Arsenal","Chelsea",3,1,"H","M Clattenburg",10,10,8,4,4,6,12,16,2,3,0,0
+"Wigan","Arsenal",2,2,"D","L Probert",7,15,5,9,3,4,16,11,1,0,1,0
+"Birmingham","Arsenal",0,3,"A","P Walton",2,18,1,11,4,5,7,9,3,1,0,0
+"Arsenal","Man City",0,0,"D","M Jones",13,5,8,0,7,2,6,12,0,2,1,1
+"West Ham","Arsenal",0,3,"A","A Marriner",7,19,6,13,4,10,8,7,1,0,0,0
+"Arsenal","Wigan",3,0,"H","K Friend",23,3,15,1,8,1,6,14,0,1,0,1
+"Arsenal","Everton",2,1,"H","L Mason",19,4,10,4,5,7,12,14,3,5,0,0
+"Newcastle","Arsenal",4,4,"D","P Dowd",16,13,8,10,12,6,13,15,2,3,0,1
+"Arsenal","Wolves",2,0,"H","C Foy",17,2,8,0,3,6,15,9,0,1,0,0
+"Arsenal","Stoke",1,0,"H","P Walton",9,7,4,4,5,3,8,9,1,2,0,0
+"Arsenal","Sunderland",0,0,"D","A Taylor",14,6,7,3,5,6,13,10,3,3,0,0
+"West Brom","Arsenal",2,2,"D","S Attwell",4,18,3,11,2,7,9,7,1,3,0,0
+"Arsenal","Blackburn",0,0,"D","P Dowd",19,7,11,2,11,4,10,9,1,2,0,1
+"Blackpool","Arsenal",1,3,"A","L Mason",12,16,6,7,6,4,13,9,2,2,0,0
+"Arsenal","Liverpool",1,1,"D","A Marriner",12,9,6,5,10,3,13,13,2,4,0,0
+"Tottenham","Arsenal",3,3,"D","M Atkinson",16,13,9,9,7,6,8,13,0,3,0,0
+"Bolton","Arsenal",2,1,"H","M Jones",11,17,10,7,3,9,13,14,3,3,0,0
+"Arsenal","Man United",1,0,"H","C Foy",9,11,2,7,3,6,15,7,2,3,0,0
+"Stoke","Arsenal",3,1,"H","M Halsey",12,14,7,5,2,5,7,10,1,2,0,0
+"Arsenal","Aston Villa",1,2,"A","M Oliver",24,8,15,5,13,2,9,10,1,4,0,0
+"Fulham","Arsenal",2,2,"D","M Atkinson",10,12,6,6,5,3,12,5,2,1,1,0
+"Newcastle","Arsenal",0,0,"D","P Walton",6,9,1,4,2,5,9,11,3,5,0,1
+"Arsenal","Liverpool",0,2,"A","M Atkinson",10,13,6,8,9,5,11,6,2,2,1,0
+"Man United","Arsenal",8,2,"H","H Webb",25,19,15,13,3,5,9,7,2,3,0,1
+"Arsenal","Swansea",1,0,"H","S Attwell",18,10,8,5,4,5,10,7,3,2,0,0
+"Blackburn","Arsenal",4,3,"H","A Marriner",10,24,5,16,2,13,14,9,2,1,0,0
+"Arsenal","Bolton",3,0,"H","M Clattenburg",23,3,14,3,9,2,7,9,0,1,0,1
+"Tottenham","Arsenal",2,1,"H","M Dean",16,13,8,7,9,7,11,8,2,1,0,0
+"Arsenal","Sunderland",2,1,"H","H Webb",20,8,11,4,9,2,9,19,3,3,0,0
+"Arsenal","Stoke",3,1,"H","L Mason",9,5,5,2,10,1,9,13,0,2,0,0
+"Chelsea","Arsenal",3,5,"A","A Marriner",12,13,10,8,3,2,7,18,2,3,0,0
+"Arsenal","West Brom",3,0,"H","M Oliver",12,9,7,4,4,1,12,12,0,0,0,0
+"Norwich","Arsenal",1,2,"A","P Dowd",7,20,4,14,1,6,11,9,3,0,0,0
+"Arsenal","Fulham",1,1,"D","M Dean",20,10,12,6,13,4,9,7,1,3,0,0
+"Wigan","Arsenal",0,4,"A","M Clattenburg",7,16,4,10,4,5,8,12,3,2,0,0
+"Arsenal","Everton",1,0,"H","H Webb",12,7,7,1,7,4,7,14,2,2,0,0
+"Man City","Arsenal",1,0,"H","P Dowd",15,12,9,8,4,6,13,10,2,3,0,0
+"Aston Villa","Arsenal",1,2,"A","J Moss",10,8,4,6,7,15,10,8,2,3,1,0
+"Arsenal","Wolves",1,1,"D","S Attwell",23,6,17,4,13,3,3,12,2,3,0,1
+"Arsenal","QPR",1,0,"H","M Atkinson",16,6,7,3,12,4,11,13,2,2,0,0
+"Fulham","Arsenal",2,1,"H","L Probert",21,17,8,10,4,3,6,12,0,1,0,1
+"Swansea","Arsenal",3,2,"H","M Oliver",9,14,5,9,9,2,9,9,0,0,0,0
+"Arsenal","Man United",1,2,"A","M Dean",12,9,6,5,0,5,15,6,5,2,0,0
+"Bolton","Arsenal",0,0,"D","C Foy",14,16,8,7,6,6,8,10,1,1,0,0
+"Arsenal","Blackburn",7,1,"H","A Marriner",20,3,11,3,11,1,9,14,2,3,0,1
+"Sunderland","Arsenal",1,2,"A","N Swarbrick",8,10,5,8,7,3,7,7,2,1,0,0
+"Arsenal","Tottenham",5,2,"H","M Dean",21,8,13,4,7,5,15,12,3,3,0,1
+"Liverpool","Arsenal",1,2,"A","M Halsey",12,10,4,7,12,0,11,9,0,1,0,0
+"Arsenal","Newcastle",2,1,"H","H Webb",21,5,13,3,6,3,11,12,2,3,0,0
+"Everton","Arsenal",0,1,"A","L Mason",7,12,2,8,4,6,11,11,2,1,0,0
+"Arsenal","Aston Villa",3,0,"H","P Dowd",20,3,12,2,15,5,6,13,0,5,0,0
+"QPR","Arsenal",2,1,"H","M Dean",10,13,8,7,4,6,13,9,5,2,0,0
+"Arsenal","Man City",1,0,"H","M Atkinson",12,7,7,2,7,6,13,14,2,4,0,1
+"Wolves","Arsenal",0,3,"A","N Swarbrick",9,10,6,7,6,4,9,4,3,0,1,0
+"Arsenal","Wigan",1,2,"A","A Marriner",18,12,8,7,9,3,15,13,2,3,0,0
+"Arsenal","Chelsea",0,0,"D","M Dean",13,13,8,7,7,7,11,11,3,4,0,0
+"Stoke","Arsenal",1,1,"D","C Foy",6,17,4,10,2,6,8,10,1,2,0,0
+"Arsenal","Norwich",3,3,"D","A Taylor",20,12,13,6,6,1,8,15,2,3,0,0
+"West Brom","Arsenal",2,3,"A","M Jones",12,12,8,8,9,5,12,10,0,1,0,0
+"Arsenal","Aston Villa",1,3,"A","A Taylor",16,9,4,4,4,3,15,18,4,5,1,0
+"Fulham","Arsenal",1,3,"A","H Webb",16,18,7,7,1,8,10,8,2,2,0,0
+"Arsenal","Tottenham",1,0,"H","M Oliver",12,14,5,4,3,6,15,14,2,2,0,0
+"Sunderland","Arsenal",1,3,"A","M Atkinson",17,14,2,6,6,7,12,10,1,2,0,0
+"Arsenal","Stoke",3,1,"H","M Dean",16,9,8,3,6,7,8,15,0,2,0,0
+"Swansea","Arsenal",1,2,"A","M Clattenburg",10,10,3,4,4,3,5,11,3,2,0,0
+"West Brom","Arsenal",1,1,"D","L Mason",12,14,4,5,6,2,6,11,1,2,0,0
+"Arsenal","Norwich",4,1,"H","L Probert",20,12,11,6,10,1,8,7,0,0,0,0
+"Crystal Palace","Arsenal",0,2,"A","C Foy",13,10,4,4,4,3,12,8,0,0,0,1
+"Arsenal","Liverpool",2,0,"H","M Atkinson",12,12,7,4,3,5,11,7,2,1,0,0
+"Man United","Arsenal",1,0,"H","M Oliver",5,10,2,2,5,6,12,11,2,3,0,0
+"Arsenal","Southampton",2,0,"H","M Clattenburg",9,10,4,4,5,6,10,14,0,3,0,0
+"Cardiff","Arsenal",0,3,"A","L Mason",10,15,4,6,3,3,6,8,0,3,0,0
+"Arsenal","Hull",2,0,"H","A Marriner",20,7,7,2,11,1,9,6,0,0,0,0
+"Arsenal","Everton",1,1,"D","H Webb",11,12,5,4,3,2,13,11,0,4,0,0
+"Man City","Arsenal",6,3,"H","M Atkinson",22,12,7,6,8,8,12,6,2,1,0,0
+"Arsenal","Chelsea",0,0,"D","M Dean",7,13,2,4,8,6,7,11,2,1,0,0
+"West Ham","Arsenal",1,3,"A","P Dowd",12,29,5,8,0,10,11,6,1,1,0,0
+"Newcastle","Arsenal",0,1,"A","L Probert",11,11,3,5,4,1,10,8,0,3,0,0
+"Arsenal","Cardiff",2,0,"H","J Moss",28,8,6,2,12,2,6,11,1,2,0,0
+"Aston Villa","Arsenal",1,2,"A","N Swarbrick",11,8,5,4,3,5,12,9,2,2,0,0
+"Arsenal","Fulham",2,0,"H","L Probert",22,8,8,2,4,4,5,7,0,0,0,0
+"Southampton","Arsenal",2,2,"D","L Mason",13,7,5,4,7,5,11,4,1,1,0,1
+"Arsenal","Crystal Palace",2,0,"H","J Moss",11,10,6,2,6,5,9,14,1,2,0,0
+"Liverpool","Arsenal",5,1,"H","M Oliver",22,11,12,6,6,6,14,14,1,2,0,0
+"Arsenal","Man United",0,0,"D","M Clattenburg",17,6,5,2,5,5,10,14,1,2,0,0
+"Arsenal","Sunderland",4,1,"H","A Marriner",12,7,9,3,7,3,10,11,0,1,0,0
+"Stoke","Arsenal",1,0,"H","M Jones",8,10,4,2,3,4,13,11,3,1,0,0
+"Tottenham","Arsenal",0,1,"A","M Dean",17,7,2,3,5,2,18,11,5,3,0,0
+"Chelsea","Arsenal",6,0,"H","A Marriner",21,12,11,5,7,1,14,8,0,1,0,1
+"Arsenal","Swansea",2,2,"D","L Probert",13,8,4,2,7,0,11,12,0,1,0,0
+"Arsenal","Man City",1,1,"D","M Dean",10,15,3,4,6,6,8,11,1,4,0,0
+"Everton","Arsenal",3,0,"H","M Atkinson",14,15,8,5,3,6,6,5,1,2,0,0
+"Arsenal","West Ham",3,1,"H","K Friend",14,12,8,2,4,3,14,12,2,2,0,0
+"Hull","Arsenal",0,3,"A","J Moss",13,12,4,6,7,0,10,7,1,1,0,0
+"Arsenal","Newcastle",3,0,"H","N Swarbrick",20,8,8,3,14,0,9,8,3,2,0,0
+"Arsenal","West Brom",1,0,"H","M Jones",15,11,4,1,9,10,9,6,2,2,0,0
+"Norwich","Arsenal",0,2,"A","L Mason",11,14,5,8,4,4,6,5,1,0,0,0

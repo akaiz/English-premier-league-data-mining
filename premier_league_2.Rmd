@@ -152,46 +152,87 @@ se20072008_result<-arrange(se20072008_result,desc(points))
    
 ```{r}
 team_overalldata_in_past_year<-function(team,year){
-  
+
+
   param=c("HomeTeam","AwayTeam","FTHG","FTAG","FTR","Referee","HS","AS","HST","AST","HC","AC","HF","AF","HY","AY","HR","AR")
-  data<-subset(year,HomeTeam==team|AwayTeam==team)[,param]
+  data<-subset(year,year$HomeTeam==team|year$AwayTeam==team)[,param]
+  
   return(data)
 }
                               
 
-
-
-twoteams_matches_in_ayear<-function(team1,team2,year){
-  fn<-"twoteams.csv"
-
- if (file.exists(fn)) file.remove(fn)
 # write(c("HomeTeam","AwayTeam","FTHG","FTAG","FTR","Referee","HS","AS","HST","AST","HC","AC","HF","AF","HY","AY","HR","AR"), file = fn, 18, append = TRUE, sep = ",")
 
-   teamresults<-team_overalldata_in_past_year(team1,year)
-   rownames(teamresults) <- NULL
-   #write(teamresults,file = fn, 18, append = TRUE, sep = ",")
-   write.table(teamresults,fn,sep = ",")
-   
-# for(i in 1:nrow(teamresults)){
-#  
-#    team<-teamresults[i,]
-#    x<-team$HomeTeam
-#  write(c(x,team$AwayTeam,team$FTHG,team$FTAG,team$FTR,team$Referee,team$HS,team$AS,team$HST,team$AST,team$HC,team$AC,team$HF,team$AF,team$HY,team$AY,team$HR,team$AR), file = fn, 18, append = TRUE, sep = ",") 
-#    print(paste(x,team$AwayTeam))
-#  }
-  
-  
+twoteams_matches_in_ayearS<-function(team1,team2,years){
+
+      fn<-"teamhome.csv"
+
+     if (file.exists(fn)) file.remove(fn)
+write(c("HomeTeam","AwayTeam","FTHG","FTAG","FTR","Referee","HS","AS","HST","AST","HC","AC","HF","AF","HY","AY","HR","AR"), file = fn, 18, append = TRUE, sep = ",")
+   for (i in 1:length(years)) {
+  iffer(i,fn,team1)
+   }
+
+  #away team
+      
+      fn<-"teamaway.csv"
+  write(c("HomeTeam","AwayTeam","FTHG","FTAG","FTR","Referee","HS","AS","HST","AST","HC","AC","HF","AF","HY","AY","HR","AR"), file = fn, 18, append = TRUE, sep = ",")
+     if (file.exists(fn)) file.remove(fn)
+    
+   for (i in 1:length(years)) {
+    iffer(i,fn,team2)
+   }
+      
+ 
 }
 
-twoteams_matches_in_ayear("Arsenal","c",year1)
-team_overalldata_in_past_year("Arsenal",year1)
-                                                  
+iffer<-function(i,fn,team){
+ 
+    
+ 
+     if(i==1){
+        writer(team,year1,fn)
+     }
+     else if(i==2){
+        writer(team,year2,fn)
+     }
+    else if(i==3){
+        writer(team,year3,fn)
+    }
+    else if(i==4){
+        writer(team,year4,fn)
+    }
+    else if(i==5){
+        writer(team,year5,fn)
+     }
+    else if(i==6){
+        writer(team,year6,fn)
+    }
+    else if(i==7){
+        writer(team,year7,fn)
+     }
+}
 
+writer<-function(team,year,fn){
+  
+      v<-teamresults<-team_overalldata_in_past_year(team,year)
+      rownames(teamresults) <- NULL
+     rownames(teamresults) <- c()
+     write.table(teamresults,fn,sep = ",",row.names = FALSE,append =TRUE,col.names =FALSE)
+    
+}
+
+twoteams_matches_in_ayearS("Arsenal","Man United",list(year1,year2,year3,year4,year5,year6,year7))
+
+   
 
 
 
 ```
 
+#### The above function generates matches being played by the two teams in the last two years 
+    * what needs to be done  is to get train our model with the two tables generated 
+    * lastly pass in the current year values except FTHG,FTAG,FTR   so that we see its chances of winning
 
 
 
